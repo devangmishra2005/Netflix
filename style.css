@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.main{
+    overflow:hidden;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    height: 62px;
+
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    padding: 0 30px;
+    position: relative;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+body{
+    background-color: black;
+}
+.hero> :first-child{
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 30px;
+}
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+    text-align:center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hero :nth-child(4){
+    font-weight: 400;
+    font-size: 15px;
+}
+.btn{
+    color:white;
+    padding: 3px 8px;
+    font-weight: 500;
+    background-color: rgba(208, 199, 199, 0.263);
+    border: 0.5px solid white;
+}
+
+.btn-red{
+    background-color: red;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.3);
+    color:white;
+}
+
+.btn-red-sn{
+    
+    background-color: red;
+}
+
+.trending{
+    width: 100%;
+    margin: 20px 0 0 10px;
+    color: white;
+    padding: 10px;
+    
+    
+}
+p{
+    margin: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.select{
+    border-radius: 5px;
+    align-items:center;
+    border: 1px solid rgba(241, 233, 233, 0.337);
+    color: white;
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.photosec{
+    display: flex;
+    justify-content: center;
+   
+}
+.photosec img{
+    border-radius:10px;
+    height: auto;
+    width: 90%;
+}
+
+.photo{
+    margin: 1rem;
+}
+.boxes{
+    padding: 50px ;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    
+    border-radius: 10px;
+    border: 2px solid rgba(124, 19, 222, 0.875);
+    padding-left: 30px;
+    background-color: rgba(47, 11, 100, 0.875);
+    height: auto;
+    width: 90%;
+    padding: 10px ;
+    margin: 10px 20px 15px 20px;
+}
+
+.ques{
+    margin-left: 10px;
+    justify-content: center;
+}
+.quesbox{
+    font-size:large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    background-color: rgba(75, 71, 71, 0.699);
+    height: 50px;
+    width: 90%;
+ border: 2px solid black;
+ padding: 10px;
+ margin: 10px;
+}
+
+.call{
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.foot-panel2{
+
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    
+    }
+    ul{
+       margin-top: 20px;
+    }
+    .foot-panel2 a{
+    
+        opacity: 0.5;
+       color: #ddd;
+       display:block;
+       font-size:0.85rem;
+       margin-top: 10px;
+    }
+    
